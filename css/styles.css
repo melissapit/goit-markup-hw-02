@@ -20,6 +20,7 @@
 
 /* body */
 body {
+  font-size: 14px;
   background-color: var(--main-bkg-color);
   color: var(--article-color);
   font-family: var(--main-font);
@@ -49,7 +50,6 @@ a {
 .link {
   color: var(--article-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -64,7 +64,6 @@ color: var(--accent-color);
 .contact {
   color: var(--main-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
 }
@@ -131,7 +130,6 @@ color: var(--accent-color);
 .feature {
   font-family: var(--main-font);
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--article-color);
@@ -140,7 +138,6 @@ color: var(--accent-color);
 .feature-about {
   font-family: 'Roboto';
   font-weight: 400;
-  font-size: 14px;
   line-height: 24px;
   color: var(--main-text-color);
 }
@@ -213,7 +210,6 @@ footer {
 }
 
 .contact-footer {
-  font-size: 14px;
   line-height: 1.7;
   color: var(--contacts-color);
 }
@@ -224,7 +220,6 @@ footer {
 }
 
 .foot-navigation-map {
-  font-size: 14px;
   line-height: 1.7;
   color: var(--some-text-color);
 }
@@ -262,14 +257,12 @@ address {
 
 .project {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.1;
   color: var(--article-color);
 }
 
 .project-type {
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.7;
   color: var(--main-text-color);
 }
