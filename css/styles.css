@@ -19,30 +19,18 @@
 
 
 
-/* all pages settings */
+/* body */
+body {
+  background-color: var(--main-bkg-color);
+  color: var(--article-color);
+  font-family: var(--main-font);
+}
 ul {
   list-style: none;
 }
-
 a {
   text-decoration: none;
 }
-
-h2, h3 {
-  color: var(--article-color);
-}
-
-
-
-
-
-/* body/main */
-body {
-  background-color: var(--main-bkg-color);
-  color: var(--main-text-color);
-  font-family: var(--main-font);
-}
-
 
 
 
@@ -151,7 +139,9 @@ color: var(--accent-color);
   line-height: 1,1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: var(--article-color);
 }
+
 
 .our-features p {
   font-weight: 400;
@@ -252,7 +242,7 @@ footer {
   font-size: 14px;
   line-height: 1,7;
   letter-spacing: 0.03em;
-  color: var(--some-elements-color);
+  color: var(--some-text-color);
 }
 
 address {
